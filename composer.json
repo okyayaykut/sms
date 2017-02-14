@@ -1,0 +1,22 @@
+{
+  "name": "okyayaykut/sms",
+  "type": "library",
+  "description": "iletiMerkezi, SMS API'si aracılığı ile kendi yazılımlarınız la SMS gönderme özelliğini eklemenizi sağlar.",
+  "keywords": ["ILETI MERKEZI", "TOPLU SMS", "SMS", "Turkey", "Turkiye", "Sms Api", "Laravel"],
+  "require": {
+    "php": "> 5.3.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "okyayaykut",
+      "email": "aykutokyay@gmail.com",
+      "homepage": "http://www.aykutokyay.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "ATTSMS": "src/"
+    }
+  }
+}

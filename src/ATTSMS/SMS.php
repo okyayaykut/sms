@@ -90,7 +90,7 @@ class SMS
      * @param $xml -XML $xml to send to API service.
      * @return mixed export of the curl result.
      */
-    public static function sendRequest($address, $xml)
+    public static function sendRequest($address, $send_xml)
     {
 
 		$ch = curl_init();
